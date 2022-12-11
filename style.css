@@ -1,0 +1,36 @@
+#bg
+{
+  
+   background-image: url("PO.jpg") ;
+   background-position: center;
+    
+}
+canvas
+{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow:1px 1px 50px crimson;}
+    to{box-shadow:1px 1px 50px blue;}
+
+}
+
+#io
+{
+    background-color: crimson;
+    color:aliceblue;
+    padding-right:50px;
+    padding-left:50px;
+
+}
+
+#euro
+{
+    background-color:teal;
+    color:aliceblue;
+    padding-right:50px;
+    padding-left:50px;
+}
